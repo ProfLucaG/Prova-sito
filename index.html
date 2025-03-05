@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--Esercizio 23 - Utilizzo di float, clear e -->
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <meta name="author" content="Nome Cognome">
+    <meta name="description" content="Esempio sull'utilizzo della proprietà float">
+    <meta name="keywords" content="float css">
+    <style>
+        header {
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        main {
+            text-align: justify;
+            background-color: pink;
+            display: flow-root;
+            margin-top: 0px;
+        }
+        footer {
+            background-color: lightblue;
+        }
+
+        .destra {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pulisci-float {
+            clear: right;
+        }
+
+        .sinistra {
+            float: left;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+
+        .grande {
+            height: 200px;
+            width: auto;
+        }
+
+        .piccola {
+            height: 30px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>FLOAT</h1>
+        <h2>Esempio di utilizzo della proprietà</h2>
+    </header>
+    <main>
+        <article>
+            <h1>Il computer: una finestra sul mondo digitale</h1>
+            <img class="destra grande" src="Immagini/eniac.jpg" alt="Eniac" height="200px">
+            <p>Il computer è uno degli strumenti più rivoluzionari del nostro tempo. Inventato per semplificare calcoli
+                complessi e automatizzare processi, si è evoluto fino a diventare una parte fondamentale della vita
+                quotidiana, in casa, al lavoro e nel tempo libero.</p>
+            <p>Dal primo modello, l’ENIAC, agli attuali laptop e supercomputer, la tecnologia informatica ha compiuto
+                passi da gigante. Un computer moderno è composto da hardware, come la CPU (il "cervello" della
+                macchina), la RAM (la memoria a breve termine), e l’hard disk o SSD (la memoria a lungo termine), e da
+                software che ne gestisce il funzionamento, come i sistemi operativi e le applicazioni.</p>
+
+            <p class="pulisci-float">L’uso del computer spazia dalla scrittura di documenti al controllo di complessi
+                sistemi industriali,
+                dall’intrattenimento alla ricerca scientifica. Internet, accessibile tramite computer, ha reso possibile
+                la comunicazione globale, l’apprendimento a distanza e il commercio elettronico.</p>
+
+            <img class="sinistra grande" src="Immagini/device.png" alt="Dispositivi digitali"
+                height="200px">
+            <p>Tuttavia, l’uso del computer non è esente da sfide: la dipendenza dalla tecnologia, la protezione dei
+                dati personali e l’impatto ambientale della produzione e dello smaltimento dei dispositivi sono temi di
+                grande rilevanza.</p>
+
+            <p>Nonostante ciò, il computer rimane uno strumento insostituibile, simbolo del progresso e della capacità
+                umana di innovare e trasformare la realtà.</p>
+        </article>
+    </main>
+    <footer>
+        <img class="sinistra piccola" src="Immagini/Manfredi-Tanari-BRAND.png" alt="Logo Manfredi Tanari" height="30px">
+        <p>Pagina web realizzata da:<br>Nome Cognome</p>
+    </footer>
+</body>
+
+</html>
